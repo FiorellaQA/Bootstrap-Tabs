@@ -1,5 +1,38 @@
-body,
-html{
+html,
+body{
 	margin:0;
 	padding:0;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+a{
+	color: gray;
+}
+th, td{
+	border:1px solid #ccc;
+	padding: 1%;
+}
+/*------------------Utilities Custom-----------------*/
+.bg-gray-low{
+	background-color: #eee;
+}
+.bg-white{
+	background-color: white;
+}
+.bold-600{
+	font-weight: 600;
+}
+.padding-2-per{
+	padding: 2%;
+}
+.mt-62{
+	margin-top: 62px;
+}
+.box-shadow{
+	box-shadow: 0px 0px 7px grey;
+}
+span.span-bold{
+	font-weight: bold;
+
 }
